@@ -2,35 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>HTML Tables</title>
+    <title>Semantic HTML Tables</title>
   </head>
   <body>
-    <h1>HTML Tables</h1>
+    <h1>Semantic HTML Tables</h1>
 
     <table>
-      <tr>
-        <th>Name</th>
-        <th>Country</th>
-        <th>Profession</th>
-      </tr>
+      <caption>
+        Team Members
+      </caption>
 
-      <tr>
-        <td>Steve Jobs</td>
-        <td>USA</td>
-        <td>Entrepreneur</td>
-      </tr>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Country</th>
+          <th>Profession</th>
+        </tr>
+      </thead>
 
-      <tr>
-        <td>Tim Cook</td>
-        <td>USA</td>
-        <td>CEO</td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>Steve Jobs</td>
+          <td>USA</td>
+          <td>Entrepreneur</td>
+        </tr>
 
-      <tr>
-        <td>Masud Rana Himel</td>
-        <td>Bangladesh</td>
-        <td>Web Developer</td>
-      </tr>
+        <tr>
+          <td>Tim Cook</td>
+          <td>USA</td>
+          <td>CEO</td>
+        </tr>
+
+        <tr>
+          <td>Masud Rana Himel</td>
+          <td>Bangladesh</td>
+          <td>Web Developer</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3">Total Members: 3</td>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>
